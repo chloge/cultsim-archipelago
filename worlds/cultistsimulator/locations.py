@@ -79,7 +79,7 @@ location_dict: Dict[str, Tuple[CSLocationClassification, List[str]]] = {
     "The Wreck of the Christabel": (CSLocationClassification.vault, []),
     "St Tentreto of the Deep Door": (CSLocationClassification.vault, []),
 
-
+    """
     # Locations for reading books
     "Read An Account of Kanish at the Spider Door": (CSLocationClassification.book, ["accountkanishkspidersdoor", "scholararamaic"]),
     "Read Against the Sisterhood of the Knot": (CSLocationClassification.book, ["againstsisterhoodknot", "scholargreek"]),
@@ -187,7 +187,8 @@ location_dict: Dict[str, Tuple[CSLocationClassification, List[str]]] = {
     "Read Watchful Tantra": (CSLocationClassification.book, ["watchfultantra", "scholarsanskrit"]),
     "Read Where Has She Gone": (CSLocationClassification.book, ["wherehasshegone", "scholarvak"]),
     "Read The World Does Not Weep": (CSLocationClassification.book, ["worlddoesnotweep", "scholararamaic"]),
-
+    """
+    
     # Languages
     "Learn Latin via Textbook": (CSLocationClassification.book, ["textbooklatin"]),
     "Learn Greek via Textbook": (CSLocationClassification.book, ["textbookgreek"]),
