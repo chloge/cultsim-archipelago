@@ -7,7 +7,7 @@ class CSItem(Item):
 
 class CSItemClassification(Enum):
     language = 1
-    bookreward = 2
+    #bookreward = 2
     vaultreward = 3
     bookmorlands = 4
     bookoriflammes = 5

@@ -8,7 +8,7 @@ class CSLocation(Location):
 class CSLocationClassification(Enum):
     common = 1
     vault = 2
-    book = 3
+    #book = 3
 
 location_dict: Dict[str, Tuple[CSLocationClassification, List[str]]] = {
     # Locations where you get books
@@ -188,7 +188,7 @@ location_dict: Dict[str, Tuple[CSLocationClassification, List[str]]] = {
     "Read Where Has She Gone": (CSLocationClassification.book, ["wherehasshegone", "scholarvak"]),
     "Read The World Does Not Weep": (CSLocationClassification.book, ["worlddoesnotweep", "scholararamaic"]),
     """
-    
+
     # Languages
     "Learn Latin via Textbook": (CSLocationClassification.book, ["textbooklatin"]),
     "Learn Greek via Textbook": (CSLocationClassification.book, ["textbookgreek"]),
