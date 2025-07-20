@@ -25,6 +25,7 @@ item_dict: Dict[str, Tuple[ItemClassification, CSItemClassification]] = {
     "scholarmandaic": (ItemClassification.progression, CSItemClassification.language),
     "scholarvak": (ItemClassification.progression, CSItemClassification.language),
 
+    """
     # Book rewards
     "accountkanishkspidersdoor_rewards": (ItemClassification.useful, CSItemClassification.bookreward),
     "againstsisterhoodknot_rewards": (ItemClassification.useful, CSItemClassification.bookreward),
@@ -132,6 +133,7 @@ item_dict: Dict[str, Tuple[ItemClassification, CSItemClassification]] = {
     "watchfultantra_rewards": (ItemClassification.useful, CSItemClassification.bookreward),
     "wherehasshegone_rewards": (ItemClassification.useful, CSItemClassification.bookreward),
     "worlddoesnotweep_rewards": (ItemClassification.useful, CSItemClassification.bookreward),
+    """
 
     # Vault rewards
     "Strathcoyne's Residence Rewards": (ItemClassification.useful, CSItemClassification.vaultreward),
