@@ -9,6 +9,9 @@ class CSItemClassification(Enum):
     language = 1
     bookreward = 2
     vaultreward = 3
+    bookmorlands = 4
+    bookoriflammes = 5
+    bookcommon = 6
     funds = 21
 
 item_dict: Dict[str, Tuple[ItemClassification, CSItemClassification]] = {
@@ -164,6 +167,38 @@ item_dict: Dict[str, Tuple[ItemClassification, CSItemClassification]] = {
     "Fort Geryk Rewards": (ItemClassification.useful, CSItemClassification.vaultreward),
     "The Wreck of the Christabel Rewards": (ItemClassification.useful, CSItemClassification.vaultreward),
     "St Tentreto of the Deep Door Rewards": (ItemClassification.useful, CSItemClassification.vaultreward),
+
+
+    # Common books
+    "De Horis 1": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Travelling at Night 1": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Travelling at Night 2": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Six Letters on Necessity": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Locksmith's Dream 1": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Locksmith's Dream 2": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Humors of a Gentleman": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Introduction to Histories": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "On the White": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "On What is Contain By Silver": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Orchid Transfigurations 1": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Orchid Transfigurations 2": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Latin Textbook": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Greek Textbook": (ItemClassification.useful, CSItemClassification.bookcommon),
+    "Sanskrit Textbook": (ItemClassification.useful, CSItemClassification.bookcommon),
+
+    # Obtainable at Morlands only
+    "War of the Roads Censored Edition": (ItemClassification.useful, CSItemClassification.bookmorlands),
+    "Queens of the Rivers": (ItemClassification.useful, CSItemClassification.bookmorlands),
+    "Victory of Crowns": (ItemClassification.useful, CSItemClassification.bookmorlands),
+    "Kitling Ripe and the Moldywarp's Grave": (ItemClassification.useful, CSItemClassification.bookmorlands),
+    "Rapt in the King": (ItemClassification.useful, CSItemClassification.bookmorlands),
+    "Viennese Connundra": (ItemClassification.useful, CSItemClassification.bookmorlands),
+
+    # Obtainable at Oriflammes only
+    "STUMM!": (ItemClassification.useful, CSItemClassification.bookoriflammes),
+    "De Bellis Murorum": (ItemClassification.useful, CSItemClassification.bookoriflammes),
+    "True and Complete Account of the House": (ItemClassification.useful, CSItemClassification.bookoriflammes),
+    "Apollo and Marsyas": (ItemClassification.useful, CSItemClassification.bookoriflammes),
 
     # Funds
     "Funds": (ItemClassification.filler, CSItemClassification.funds),

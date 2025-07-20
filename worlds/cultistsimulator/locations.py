@@ -30,7 +30,7 @@ location_dict: Dict[str, Tuple[CSLocationClassification, List[str]]] = {
     "Sanskrit Textbook": (CSLocationClassification.common, []),
 
     # Obtainable at Morlands only
-    "War of the Roads Censored Edition": (CSLocationClassification.vault, []),
+    "War of the Roads Censored Edition": (CSLocationClassification.common, []),
     "Queens of the Rivers": (CSLocationClassification.common, []),
     "Victory of Crowns": (CSLocationClassification.common, []),
     "Kitling Ripe and the Moldywarp's Grave": (CSLocationClassification.common, []),
