@@ -1,3 +1,3 @@
-# [Archipelago](https://archipelago.gg) ![Discord Shield](https://discordapp.com/api/guilds/731205301247803413/widget.png?style=shield) | [Install](https://github.com/ArchipelagoMW/Archipelago/releases)
+This is a WIP Archipelago randomizer for the game Cultist Simulator.
 
-This is a WIP Archipelago randomizer for the game Cultist Simulator
+If you don't know what Archipelago is, the main repository can be found here: https://github.com/ArchipelagoMW/Archipelago
