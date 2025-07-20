@@ -188,7 +188,6 @@ location_dict: Dict[str, Tuple[CSLocationClassification, List[str]]] = {
     "Read Where Has She Gone": (CSLocationClassification.book, ["wherehasshegone", "scholarvak"]),
     "Read The World Does Not Weep": (CSLocationClassification.book, ["worlddoesnotweep", "scholararamaic"]),
     """
-
     # Languages
     "Learn Latin via Textbook": (CSLocationClassification.book, ["textbooklatin"]),
     "Learn Greek via Textbook": (CSLocationClassification.book, ["textbookgreek"]),
